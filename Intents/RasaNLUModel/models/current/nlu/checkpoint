@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\digola\\OneDrive - Microsoft\\Softie\\Phase2\\NLP\\MustieNLP\\Intents\\RasaNLUModel\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\digola\\OneDrive - Microsoft\\Softie\\Phase2\\NLP\\MustieNLP\\Intents\\RasaNLUModel\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"

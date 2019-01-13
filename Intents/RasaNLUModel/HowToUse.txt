@@ -1,0 +1,25 @@
+curl -X POST -H "Content-Type: application/json; charset=utf-8" localhost:5000/parse -d '{"query":"Hello", "project": "current"}'
+
+
+curl -X POST -d "{ \"method\" : \"account_info\", \"params\" : [ { \"account\" : \"rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh\"} ] }" http://s1.ripple.com:51234
+
+
+
+curl -X POST localhost:5000/parse -d "{\"query\":\"Hello\", \"project\": \"current\"}"
+
+curl 'http://localhost:5000/parse?q=hello'
+
+curl -X POST localhost:5000/parse -d "{\"q\":\"Hello\", \"project\": \"test_model_mitie_sklearn\"}"
+
+
+git clone -q https://github.com/mit-nlp/MITIE.git
+
+
+https://github.com/RasaHQ/rasa_nlu.git
+
+git@github.com:RasaHQ/rasa_nlu.git
+
+
+python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
+
+python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose

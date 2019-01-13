@@ -1,0 +1,659 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "text": "end"
+      },
+      {
+        "intent": "goodbye",
+        "text": "farewell"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a good one"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thx"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks very much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks Mustie"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "i'm looking for a place to eat"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "I want to grab lunch"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "I am searching for a dinner spot"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "north",
+            "entity": "location"
+          }
+        ],
+        "text": "i'm looking for a place in the north of town"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "show me chinese restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "mexican",
+            "entity": "cuisine"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "centre",
+            "entity": "location"
+          }
+        ],
+        "text": "show me a mexican place in the centre"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "i am looking for an indian spot"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "search for restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "west",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere in the west"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "18328",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere near 18328"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "asian fusion",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I am looking for asian fusion food"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "29432",
+            "entity": "location"
+          }
+        ],
+        "text": "I am looking a restaurant in 29432"
+      },
+      {
+        "intent": "search",
+        "entities": [
+          {
+            "start": 33,
+            "end": 56,
+            "value": "artificial intelligence",
+            "entity": "searchtext"
+          }
+        ],
+        "text": "Can you get me information about artificial intelligence"
+      },
+      {
+        "intent": "search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "NLP",
+            "entity": "searchtext"
+          }
+        ],
+        "text": "What do you know about NLP"
+      },
+      {
+        "intent": "search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "Steve Jobs",
+            "entity": "searchtext"
+          }
+        ],
+        "text": "Mustie, Who is Steve Jobs"
+      },
+      {
+        "intent": "search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 45,
+            "value": "global warming",
+            "entity": "searchtext"
+          }
+        ],
+        "text": "I want to know something about global warming"
+      },
+      {
+        "intent": "search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "London",
+            "entity": "searchtext"
+          }
+        ],
+        "text": "Grab me some info on London"
+      },
+      {
+        "intent": "search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 44,
+            "value": "olymic games",
+            "entity": "searchtext"
+          }
+        ],
+        "text": "Mustie, tell me something about olymic games"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "that's right"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "affirm",
+        "text": "right, thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "great choice"
+      },
+      {
+        "intent": "affirm",
+        "text": "sounds really good"
+      },
+      {
+        "intent": "describe_surroundings",
+        "text": "Hey, tell me what's around me?"
+      },
+      {
+        "intent": "describe_surroundings",
+        "text": "Do you know what's infront of you?"
+      },
+      {
+        "intent": "describe_surroundings",
+        "text": "Hey describe the thing in front of you"
+      },
+      {
+        "intent": "joke",
+        "text": "Hey, tell me a joke"
+      },
+      {
+        "intent": "joke",
+        "text": "Hey, can you cheer me up"
+      },
+      {
+        "intent": "joke",
+        "text": "Do you know a joke"
+      },
+      {
+        "intent": "joke",
+        "text": "Can you tell me a joke"
+      },
+      {
+        "intent": "joke",
+        "text": "Do something funny"
+      },
+      {
+        "intent": "introduce",
+        "text": "Hey, tell me about yourself"
+      },
+      {
+        "intent": "introduce",
+        "text": "Who are you"
+      },
+      {
+        "intent": "introduce",
+        "text": "Who made you"
+      },
+      {
+        "intent": "introduce",
+        "text": "What's your name"
+      },
+      {
+        "intent": "introduce",
+        "text": "Introduce yourself"
+      },
+      {
+        "intent": "color",
+        "text": "Hey, what color t-shirt I'm wearning"
+      },
+      {
+        "intent": "color",
+        "text": "Can you tell me the color of this shirt"
+      },
+      {
+        "intent": "color",
+        "text": "Hey, what color t-shirt I'm wearning"
+      },
+      {
+        "intent": "color",
+        "text": "Can you tell me the color of this shirt"
+      },
+      {
+        "intent": "message",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "Rohan",
+            "entity": "person"
+          },
+          {
+            "start": 27,
+            "end": 41,
+            "value": "clean the room",
+            "entity": "message"
+          }
+        ],
+        "text": "Hey, can you tell Rohan to clean the room"
+      },
+      {
+        "intent": "message",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "Diksha",
+            "entity": "person"
+          },
+          {
+            "start": 23,
+            "end": 40,
+            "value": "complete the code",
+            "entity": "message"
+          }
+        ],
+        "text": "can you tell Diksha to complete the code"
+      },
+      {
+        "intent": "message",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "Aditi",
+            "entity": "person"
+          },
+          {
+            "start": 19,
+            "end": 35,
+            "value": "meet me in lobby",
+            "entity": "message"
+          }
+        ],
+        "text": "Hey, tell Aditi to meet me in lobby"
+      },
+      {
+        "intent": "message",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "Joy",
+            "entity": "person"
+          },
+          {
+            "start": 20,
+            "end": 52,
+            "value": "organize a meeting sometime soon",
+            "entity": "message"
+          }
+        ],
+        "text": "can you tell Joy to organize a meeting sometime soon"
+      },
+      {
+        "intent": "message",
+        "text": "can you pass a message?"
+      },
+      {
+        "intent": "ocr",
+        "text": "Hey, can you read this text for me"
+      },
+      {
+        "intent": "ocr",
+        "text": "Hey, what's written on this paper"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "forward",
+            "entity": "direction"
+          }
+        ],
+        "text": "Hey, move forward"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "forward",
+            "entity": "direction"
+          }
+        ],
+        "text": "Hey, come forward"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "forward",
+            "entity": "direction"
+          }
+        ],
+        "text": "Hey, walk forward"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "forward",
+            "entity": "direction"
+          }
+        ],
+        "text": "Hey, walk forward"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "backward",
+            "entity": "direction"
+          }
+        ],
+        "text": "Hey, move backward"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "backward",
+            "entity": "direction"
+          }
+        ],
+        "text": "Hey, come backward"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "backward",
+            "entity": "direction"
+          }
+        ],
+        "text": "Hey, walk backward"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "backward",
+            "entity": "direction"
+          }
+        ],
+        "text": "Hey, walk backward"
+      },
+      {
+        "intent": "move",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "stop",
+            "entity": "direction"
+          }
+        ],
+        "text": "Hey, stop moving"
+      },
+      {
+        "intent": "raise_arms",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "left",
+            "entity": "arm"
+          }
+        ],
+        "text": "Hey, can you raise your left arm"
+      },
+      {
+        "intent": "raise_arms",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "right",
+            "entity": "arm"
+          }
+        ],
+        "text": "Hey, can you raise your right arm"
+      },
+      {
+        "intent": "raise_arms",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "both",
+            "entity": "arm"
+          }
+        ],
+        "text": "Hey, raise both your arms"
+      },
+      {
+        "intent": "raise_arms",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "both",
+            "entity": "arm"
+          }
+        ],
+        "text": "Hey, raise both your arms"
+      },
+      {
+        "intent": "rotate",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "clockwise",
+            "entity": "direction"
+          }
+        ],
+        "text": "Hey, rotate clockwise"
+      },
+      {
+        "intent": "rotate",
+        "entities": [
+          {
+            "start": 12,
+            "end": 25,
+            "value": "anticlockwise",
+            "entity": "direction"
+          }
+        ],
+        "text": "Hey, rotate anticlockwise"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
